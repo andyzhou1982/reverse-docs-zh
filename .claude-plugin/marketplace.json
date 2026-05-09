@@ -23,7 +23,12 @@
         "design-document",
         "reverse-engineering"
       ],
-      "source": "./",
+      "repository": "https://github.com/andyzhou1982/reverse-docs-zh",
+      "source": {
+        "source": "github",
+        "repo": "andyzhou1982/reverse-docs-zh",
+        "ref": "main"
+      },
       "skills": [
         "./skills/design-reverse"
       ]
