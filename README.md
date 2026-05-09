@@ -13,11 +13,23 @@
 
 ### 方式一：通过市场安装（推荐）
 
-```bash
-claude market add https://github.com/andyzhou1982/reverse-docs-zh.git
+在 Claude Code 会话内执行：
+
+```
+/plugin marketplace add andyzhou1982/reverse-docs-zh
 ```
 
-安装后通过 `/reverse-docs-zh:design-reverse` 直接使用。
+添加市场后，安装插件：
+
+```
+/plugin install reverse-docs-zh@reverse-docs-zh-marketplace
+```
+
+也可在外部终端中执行：
+
+```bash
+claude plugin marketplace add andyzhou1982/reverse-docs-zh
+```
 
 ### 方式二：本地插件目录
 
