@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "reverse-docs-zh-marketplace",
+  "version": "1.0.0",
+  "description": "中文逆向文档生成工具集 — 从源代码自动生成详细设计文档",
+  "owner": {
+    "name": "andyz"
+  },
+  "plugins": [
+    {
+      "name": "reverse-docs-zh",
+      "description": "从源代码逆向生成中文详细设计文档，支持 GitNexus 知识图谱优先和内置工具降级策略",
+      "version": "0.1.0",
+      "category": "documentation",
+      "author": {
+        "name": "andyz"
+      },
+      "keywords": [
+        "文档生成",
+        "逆向工程",
+        "详细设计",
+        "中文",
+        "design-document",
+        "reverse-engineering"
+      ],
+      "source": "./",
+      "skills": [
+        "./skills/design-reverse"
+      ]
+    }
+  ]
+}

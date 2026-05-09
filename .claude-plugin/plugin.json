@@ -1,0 +1,8 @@
+{
+  "name": "reverse-docs-zh",
+  "version": "0.1.0",
+  "description": "从源代码逆向生成中文详细设计文档，支持 GitNexus 知识图谱优先和内置工具降级策略",
+  "author": {
+    "name": "andyz"
+  }
+}
