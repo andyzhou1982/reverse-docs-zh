@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "中文逆向文档生成工具集 — 从源代码自动生成详细设计文档",
   "owner": {
-    "name": "andyz"
+    "name": "andyzhou"
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
       "version": "0.1.0",
       "category": "documentation",
       "author": {
-        "name": "andyz"
+        "name": "andyzhou"
       },
       "keywords": [
         "文档生成",
