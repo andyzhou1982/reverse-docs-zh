@@ -13,9 +13,8 @@ description: |
 
 **在开始任何工作之前，必须先读取模板文件：**
 
-```
-references/detailed-design-template.md
-```
+[detailed-design-template.md](references/detailed-design-template.md)
+
 
 生成的文档必须严格遵循该模板的章节结构。模板中标注 `[重要]` 的章节，是详细设计文档的重点；模板中标注 `[可选]` 的章节，仅在代码中能找到相关信息时才生成；模板中标注 `[待填写]` 的占位符，必须替换为从代码中提取的实际内容，无法填充的章节直接跳过。
 
@@ -84,7 +83,7 @@ references/detailed-design-template.md
 
 并行执行以下操作：
 
-1. **读取模板文件** — 必须读取 `references/detailed-design-template.md`，这是文档结构的唯一依据。如果用户提供了其他模板路径，以用户提供的为准
+1. **读取模板文件** — 必须读取 [detailed-design-template.md](references/detailed-design-template.md)，这是文档结构的唯一依据。如果用户提供了其他模板路径，以用户提供的为准
 2. **探测 GitNexus 可用性** — 调用 `gitnexus_list_repos`：
    - **成功且包含当前项目** → 进入 GitNexus 优先模式，继续以下步骤 3
    - **失败或未找到当前项目** → 进入降级模式，跳过步骤 3，所有信息收集改用 Glob/Grep/Read
@@ -111,7 +110,7 @@ references/detailed-design-template.md
 
 #### 各语言探索策略
 
-根据识别到的技术栈，读取 `references/language-exploration-guide.md` 中对应的语言章节，应用匹配的文件搜索模式和探索策略。
+根据识别到的技术栈，读取 [language-exploration-guide.md](references/language-exploration-guide.md) 中对应的语言章节，应用匹配的文件搜索模式和探索策略。
 
 #### 其他语言
 
